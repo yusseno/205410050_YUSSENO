@@ -1,0 +1,749 @@
+/* index */
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  color: #666666;
+  background: #f6f6f6;
+  background-position: center;
+  font-family: georgia, times, serif;
+  line-height: 1.4em;
+  margin: 0px;
+}
+
+.wrapper {
+  width: 100%;
+  background-color: #ffffff;
+  position: relative;
+  background: #f6f6f6;
+  position: relative;
+
+}
+
+.header {
+  height: 400px;
+  position: relative;
+}
+
+.nav {
+  position: relative;
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.nav-menu {
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  margin-top: -370px;
+  margin-right: 70%;
+  float: right;
+  z-index: 999;
+}
+
+.nav-menu ul {
+  display: block; 
+  list-style: none;
+  margin-left: 0px;
+  position: fixed;
+}
+
+.nav-menu ul li {
+  position: relative;
+  text-align: center;
+  float: left;
+  background: #DCDCDC;
+  box-shadow: 2px 2px 2px black;
+
+}
+
+.nav-menu ul li a{
+  display: inline-block;
+  color: #FFF;
+  text-decoration: none;
+  padding: 0px 20px;
+  line-height: 30px;
+  color: #2F4F4F;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.nav-menu ul li a:hover{
+  background: #FFFAF0;
+  color: blue;
+}
+
+.aktif {
+  background: #FFFAF0;
+  box-shadow: 1px;
+
+}
+
+.slider{
+  overflow: hidden;
+  height: 400px;
+}
+
+.slider figure div{
+  width: 20%;
+  float: left;
+
+}
+
+.slider figure img{
+  width: 100%;
+  float: left;
+
+}
+
+.slider figure{
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 10s slidy infinite;
+  padding: 0;
+}
+
+@keyframes slidy{
+  0%{
+    left: 0%
+  }
+
+  20%{
+    left: 0%;
+  }
+
+  25%{
+    left: -100%;
+  }
+
+  45%{
+    left: -100%;
+  }
+
+  50%{
+    left: -200%;
+  }
+
+  70%{
+    left: -200%;
+  }
+
+  75%{
+    left: -100%;
+  }
+
+  95%{
+    left: -100%;
+  }
+
+  100%{
+    left: 0%;
+  }
+
+  100%{
+    left: 0%;
+  }
+}
+
+.logo {
+  text-align: center;
+  margin-top: -60px;
+  position: relative;
+  height: 100px;
+}
+
+.content{
+  width: 90%;
+  height: 100%;
+  margin-left: 5%;
+  margin-top: 4.5rem;
+  background: white;
+}
+
+.heading h2{
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+}
+
+.title {
+  float: left;
+  background: white;
+}
+.title h3{
+  padding-left: 2rem;
+  color: black;
+}
+
+.cari {
+  float: right;
+  padding-right: 2rem;
+  background: white;
+  border-radius: 1rem;
+}
+
+.search {
+  padding:8px 15px;
+  background:rgba(50, 50, 50, 0.2);
+  border:0px solid #dbdbdb;
+}
+
+.button {
+  position:relative;
+  padding:6px 15px;
+  left:-8px;
+  border:2px solid #53bd84;
+  background-color:#53bd84;
+  color:#fafafa;
+}
+
+.button:hover  {
+  background-color:#fafafa;
+  color:#207cca;
+}
+       
+::-webkit-input-placeholder { /* For WebKit browsers */
+  color:white;
+  font-family:Helvetica Neue;
+  font-weight:bold;
+}
+
+:-moz-placeholder { /* For Mozilla Firefox 4 to 18 */
+  color:white;
+  font-family:Helvetica Neue;
+  font-weight:bold;
+}
+
+::-moz-placeholder { /* For Mozilla Firefox 19+ */
+  color:white;
+  font-family:Helvetica Neue;
+  font-weight:bold;
+}
+
+:-ms-input-placeholder { /* For Internet Explorer 10+ */
+  color:white;
+  font-family:Helvetica Neue;
+  font-weight:bold;
+}
+
+.view-content{
+  width: 90%;
+  height: 100%;
+  margin-left: 5%;
+  margin-top: 30px;
+  background: white;
+}
+
+.utama {
+  float: left;
+  width: 100%;
+  text-align: justify;
+}
+
+article {
+  clear: both;
+  overflow: hidden;
+  width: 97%;
+}
+
+hgroup {
+  margin-top: 40px;
+  color: black;
+}
+
+figure {
+  float: left;
+  width: 290px;
+  height: 220px;
+  padding: 5px;
+  margin: 20px;
+  border: 1px solid #eeeeee;
+}
+
+figcaption {
+  font-size: 90%;
+  text-align: left;
+}
+
+h2{
+  color: black;
+}
+
+h3{
+  color: black;
+}
+
+.date {
+  font-size: 12px;
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+.tampilkan_selanjutnya {
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  color: blue;
+  text-align: center;
+  float: none;
+  width: 100%;
+}
+
+.footer {
+  padding-top: 0.5rem;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  color: white;
+  background: #696969;
+}
+
+.footer img {
+  height: 25px;
+}
+
+.detail {
+  padding-top: 1rem;
+  text-align: justify;
+  width: 97%;
+}
+
+/* responsive 1080 */
+@media screen and (max-width:1080px){
+  .nav-menu {
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    margin-top: -370px;
+    margin-right: 78.5%;
+    float: right;
+  }
+}
+
+
+/* abaout */
+.header-full {
+  position: relative;
+  width: 100%;
+  height: 65px;
+}
+
+.nav-header {
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 30px;
+  margin-right: 70%;
+  float: right;
+}
+
+.nav-header-menu ul {
+  display: block; 
+  list-style: none;
+  margin-left: 0px;
+  position: fixed;
+}
+
+.nav-header-menu ul li {
+  position: relative;
+  text-align: center;
+  float: left;
+  background: #DCDCDC;
+  box-shadow: 2px 2px 2px black;
+
+}
+
+.nav-header-menu ul li a{
+  display: inline-block;
+  color: #FFF;
+  text-decoration: none;
+  padding: 0px 20px;
+  line-height: 30px;
+  color: #2F4F4F;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.nav-header-menu ul li a:hover{
+  background: #FFFAF0;
+  color: blue;*/
+}
+
+.about{
+  width: 90%;
+  height: 100%;
+  margin-left: 5%;
+  margin-top: 2rem;
+  background: white;
+}
+
+.view-about h2 {
+  padding-top: 2rem;
+  padding-left: 45%;
+  padding-bottom: 1rem;
+}
+
+.view-about p {
+  padding-left: 2%;
+  padding-right: 2%;
+  text-align: justify;
+  padding-bottom: 2rem;
+  color: black;
+}
+
+/* responsive 1080 */
+@media screen and (max-width:1080px){
+  .nav-header {
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 77%;
+    float: right;
+  }
+}
+
+
+/* hotels */
+
+.hotels{
+  width: 90%;
+  height: 100%;
+  margin-left: 5%;
+  margin-top: 2rem;
+  background: white;
+}
+
+.view-hotels h2 {
+  padding-top: 2rem;
+  padding-left: 36%;
+  padding-bottom: 1rem;
+}
+
+.view-hotels p {
+  padding-left: 2%;
+  padding-right: 2%;
+  text-align: justify;
+  color: black;
+}
+.view-hotels-images {
+  width: 100%;
+  float: left;
+  margin-left: 3%;
+}
+
+
+.view-hotels-images figure{
+  width: 325px;
+  height: 240px;
+  padding: 5px;
+  margin: 20px;
+  border: 1px solid #eeeeee;
+}
+
+.view-hotels-images figcaption {
+  font-size: 90%;
+  text-align: left;
+  color: black;
+}
+
+.narasumber p{
+  font-size: 12px;
+  font-style: italic;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width:1080px){
+  .view-hotels-images {
+    width: 100%;
+    float: left;
+    margin-left: 7%;
+  }
+}
+
+
+/* kuliner */
+.kuliner{
+  width: 90%;
+  height: 100%;
+  margin-left: 5%;
+  margin-top: 2rem;
+  background: white;
+}
+
+.view-kuliner h2 {
+  padding-top: 2rem;
+  padding-left: 36%;
+  padding-bottom: 1rem;
+}
+
+.view-kuliner p {
+  padding-left: 2%;
+  padding-right: 2%;
+  text-align: justify;
+  color: black;
+}
+.view-kuliner-images {
+  width: 100%;
+  float: left;
+  margin-left: 3%;
+}
+
+.view-kuliner-images figure{
+  width: 325px;
+  height: 240px;
+  padding: 5px;
+  margin: 20px;
+  border: 1px solid #eeeeee;
+}
+
+.view-kuliner-images figcaption {
+  font-size: 90%;
+  text-align: left;
+  color: black;
+}
+
+.narasumber p{
+  font-size: 12px;
+  font-style: italic;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width:1080px){
+  .view-kuliner-images {
+    width: 100%;
+    float: left;
+    margin-left: 7%;
+  }
+  .view-kuliner h2 {
+    padding-top: 2rem;
+    padding-left: 30%;
+    padding-bottom: 1rem;
+  }
+}
+
+
+/* news */
+.news{
+  width: 90%;
+  height: 100%;
+  margin-left: 5%;
+  margin-top: 2rem;
+  background: white;
+}
+
+.view-news h2 {
+  padding-top: 2rem;
+  padding-left: 36%;
+  padding-bottom: 1rem;
+}
+
+.view-news p {
+  padding-left: 2%;
+  padding-right: 2%;
+  text-align: justify;
+  color: black;
+}
+.view-news-images {
+  width: 100%;
+  float: left;
+  margin-left: 3%;
+}
+
+.view-news figure{
+  float: left;
+  width: 290px;
+  height: 220px;
+  padding: 5px;
+  margin: 20px;
+  border: 1px solid #eeeeee;
+}
+
+.view-news figcaption {
+  font-size: 90%;
+  text-align: left;
+  color: black;
+}
+
+.narasumber p{
+  font-size: 12px;
+  font-style: italic;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width:1080px){
+  .view-news h2 {
+    padding-top: 2rem;
+    padding-left: 36%;
+    padding-bottom: 1rem;
+  }
+}
+
+
+/* view content1 */
+.content1{
+  width: 90%;
+  height: 100%;
+  margin-left: 5%;
+  margin-top: 2rem;
+  background: white;
+}
+
+.view-content1 h2 {
+  padding-top: 2rem;
+  padding-left: 44%;
+  padding-bottom: 1rem;
+}
+
+.view-content1 p {
+  margin-right: 3%;
+  margin-left: 3%;
+  margin-bottom: 1rem;
+  text-align: justify;
+  color: black;
+}
+
+.view-content1-images {
+  width: 100%;
+  float: left;
+  margin-left: 3%;
+}
+
+.view-content1-images figure{
+  width: 325px;
+  height: 240px;
+  padding: 5px;
+  margin: 20px;
+  border: 1px solid #eeeeee;
+}
+
+.view-content1-images figcaption {
+  font-size: 90%;
+  text-align: left;
+  color: black;
+}
+
+.narasumber p{
+  font-size: 12px;
+  font-style: italic;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width:1080px){
+  .view-content1-images {
+    width: 100%;
+    float: left;
+    margin-left: 7%;
+  }
+
+  .view-content1 h2 {
+    padding-top: 2rem;
+    padding-left: 41%;
+    padding-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width:1080px){
+  .view-content1-citumang h2 {
+    padding-top: 2rem;
+    padding-left: 44%;
+    padding-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width:1080px){
+  .view-content1-green_canyon h2 {
+    padding-top: 2rem;
+    padding-left: 41%;
+    padding-bottom: 1rem;
+  }
+}
+
+.view-content1-batu_hiu h2 {
+  padding-top: 2rem;
+  padding-left: 42%;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width:1080px){
+  .view-content1-batu_hiu h2 {
+    padding-top: 2rem;
+    padding-left: 39%;
+    padding-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width:1080px){
+  .view-content1-batukaras h2 {
+    padding-top: 2rem;
+    padding-left: 38%;
+    padding-bottom: 1rem;
+  }
+}
+
+.view-content1-karapyak h2 {
+  padding-top: 2rem;
+  padding-left: 41%;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width:1080px){
+  .view-content1-karapyak h2 {
+    padding-top: 2rem;
+    padding-left: 39%;
+    padding-bottom: 1rem;
+  }
+}
+
+.view-content1-madasari h2 {
+  padding-top: 2rem;
+  padding-left: 41%;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width:1080px){
+  .view-content1-madasari h2 {
+    padding-top: 2rem;
+    padding-left: 39%;
+    padding-bottom: 1rem;
+  }
+}
+
+.view-content2-artikel1 h2 {
+  padding-top: 2rem;
+  padding-left: 37%;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width:1080px){
+  .view-content2-artikel1 h2 {
+    padding-top: 2rem;
+    padding-left: 34%;
+    padding-bottom: 1rem;
+  }
+}
+
+.view-content2-artikel2 h2 {
+  padding-top: 2rem;
+  padding-left: 12%;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width:1080px){
+  .view-content2-artikel2 h2 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    line-height: 50px;
+    text-align: center;
+    margin-right: 13%;
+  }
+}
